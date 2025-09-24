@@ -1,16 +1,53 @@
-# flutter_to_do_app
+### **Flutter To-Do App**
 
-A new Flutter project.
+A simple and elegant to-do list application built with Flutter to demonstrate fundamental widgets and state management.
 
-## Getting Started
+-----
 
-This project is a starting point for a Flutter application.
+#### **Features**
 
-A few resources to get you started if this is your first Flutter project:
+* **Add Tasks**: Easily add new tasks to your list.
+* **Complete Tasks**: Mark tasks as complete with a simple tap.
+* **Efficient List**: Uses `ListView.builder` for efficient rendering of long lists.
+* **Clean UI**: Implemented with Material Design principles.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-----
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### **Widgets & Concepts Demonstrated**
+
+This project is an excellent starting point for learning about:
+
+* **`StatelessWidget` vs. `StatefulWidget`**: Understanding when and how to use each.
+* **Widget Tree**: How to build a UI by nesting widgets like `Scaffold`, `AppBar`, `Card`, and `ListView`.
+* **State Management**: Using `setState` to update the UI in response to changes in application data.
+* **Common Widgets**: Practical usage of `MaterialApp`, `AppBar`, `ListView.builder`, `Card`, `CheckboxListTile`, and `FloatingActionButton`.
+
+-----
+
+#### **Getting Started**
+
+This project is a standard Flutter application. To get a local copy up and running, follow these simple steps.
+
+##### **Prerequisites**
+
+* Flutter SDK installed.
+* An IDE (e.g., VS Code or Android Studio) with the Flutter and Dart extensions.
+
+##### **Installation**
+
+1.  Clone the repository:
+    ```sh
+    git clone [your_repo_url]
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd flutter_todo_app
+    ```
+3.  Get the required dependencies:
+    ```sh
+    flutter pub get
+    ```
+4.  Run the application:
+    ```sh
+    flutter run
+    ```
